@@ -1,0 +1,24 @@
+1.  MULTIPLY 600 by 2
+    SAVE previous computation result as "result"
+    SHOW "result"
+
+2.  READ and SAVE "tahun"
+    IF tahun MODULUS 4 EQUALS 0 OR (tahun MODULUS 100 equals 0 AND tahun MODULUS 400 equals 0)
+        DO display "merupakan tahun kabisat"
+    ELSE
+        DO display "bukan tahun kabisat"
+
+3.  STORE "keranjang" with 20 "pakaian"
+    STORE "mesin cuci" with 0
+    STORE "jumlah pakaian" with 20
+    WHILE "mesin cuci" < "jumlah pakaian"
+        READ and SAVE 1 "pakaian" from "keranjang" to "mesin cuci"
+
+4.  STORE "kelas" with 40 "siswa"
+    STORE "jumlah siswa" with 40
+    WHILE "jumlah siswa" GREATER THAN 0
+        READ and SAVE 1 "siswa" from "kelas" to "terdakwa"
+        IF "kuku" "terdakwa" EQUALS to "long"
+            DO "hukum" "terdakwa"
+        ELSE
+            DO "puji" "terdakwa"
