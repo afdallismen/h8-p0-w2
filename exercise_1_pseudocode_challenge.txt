@@ -11,7 +11,7 @@
 3.  STORE "keranjang" with 20 "pakaian"
     STORE "mesin cuci" with 0
     STORE "jumlah pakaian" with 20
-    WHILE "mesin cuci" < "jumlah pakaian"
+    WHILE "mesin cuci" LESS THAN "jumlah pakaian"
         READ and SAVE 1 "pakaian" from "keranjang" to "mesin cuci"
 
 4.  STORE "kelas" with 40 "siswa"
