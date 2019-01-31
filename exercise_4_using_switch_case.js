@@ -38,7 +38,15 @@ switch (bulan) {
         break
     case 12:
         bulan = 'Desember'
-        break     
+        break
 }
 
-console.log(tanggal + ' ' + bulan + ' ' + tahun)
+if (tanggal < 1 && tanggal > 31) {
+    console.log('Tanggal yang anda gunakan harus berada pada range 1-31')
+} else if (bulan < 1 && bulan > 12) {
+    console.log('Bulan yang anda gunakan harus berada pada range 1-12')
+} else if (tahun < 1900 && tahun > 2200) {
+    console.log('Tahun yang anda gunakan harus berada pada range 1900-2200')
+} else {
+    console.log(tanggal + ' ' + bulan + ' ' + tahun)
+}
