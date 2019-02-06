@@ -1,6 +1,8 @@
-1.  MULTIPLY 600 by 2
-    SAVE previous computation result as "result"
-    SHOW "result"
+1.  STORE "percepatan" with 2
+    STORE "massa" with 600
+    CALCULATE "percepatan" MULTIPLY with "massa"
+    STORE previous computation result as "resultan gaya"
+    SHOW "resultan gaya"
 
 2.  READ and SAVE "tahun"
     IF tahun MODULUS 4 EQUALS 0 OR (tahun MODULUS 100 equals 0 AND tahun MODULUS 400 equals 0)
